@@ -634,7 +634,7 @@ public static boolean shouldShowRequestPermissionRationale(Activity activity,
     }
 ```
 
-shouldShowRequestPermissionRationale方法又红了，至少我们知道了通过这个方法，应该是得到了一布尔类型的返回值，而这个返回值与requestPermissions()方法的返回值密切相关，因为只有当用户拒绝了权限的时候，requestPermissions()会存在一个返回值（数据），这个数据决定了shouldShowRequestPermissionRationale的返回值为真，所以才会显示出我们所builder的AlertDalog。
+shouldShowRequestPermissionRationale方法又红了，至少我们知道了通过这个方法，应该是得到了一布尔类型的返回值，而这个返回值与requestPermissions()方法的返回值密切相关，因为只有当用户拒绝了权限的时候，requestPermissions()会存在一个返回值（数据），这个数据决定了shouldShowRequestPermissionRationale的返回值为真，所以才会显示出我们所builder的AlertDialog。
 
 ### 源码为什么会报错
 

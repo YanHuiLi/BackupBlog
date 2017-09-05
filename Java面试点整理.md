@@ -97,6 +97,8 @@ top: 28
 
 ![](http://ogtmd8elu.bkt.clouddn.com/201707182217_270.png)
 
+### 接口和抽象类的区别
+
 
 
 
