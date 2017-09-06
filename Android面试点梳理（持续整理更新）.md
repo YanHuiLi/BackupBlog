@@ -3,101 +3,58 @@ title: Android面试点梳理（持续整理更新）
 date: 2016-12-04 17:16:58
 tags: [Android面试点]
 categories: Android
+top: 30
 ---
 
 ---
-一些我认为是Android面试很重要的点，我的android之路也会围绕这些点逐步展开。
-希望各位能给我提一些建议，做一些补充，感激不尽。
+Android面试提纲
+
 <!--more-->
 
+### Android基础知识
 
-# Java部分
+1. Fragment
+2. Activity
+3. Service
+4. Binder（高级阶段）
+5. 广播
+6. WebView安全漏洞
 
-* 面向对象的基本概念和特性。（继承，多态，抽象，封装）
+### 异步消息处理机制
 
-* 接口和抽象类的使用。
+1. Handler（重点）
+2. IntentService
+3. AsyncTask
+4. HandlerThread
 
-* 重载与重写。
+### View相关的技术
 
-* 集合框架
+1. View的渲染和绘制
+2. 事件分发（重点）
+3. ListView（优化）
 
-* 反射机制
+### Android构建
 
-* 内存管理
+1. Android编译打包
+2. Gradle
+3. Proguard混淆
+4. 渠道包
+5. Git
 
+### 开源框架
 
-# Android部分
+1. 网络框架：Retrofit  Okhttp Volley（重点）
+2. 图片框架：Glide Fresco UIL
+3. IOC 框架：Dagger2  Butterknife
 
-* DataBinding
+### 热门前沿
 
-* Activity,Fragment,service的生命周期。
-
-* ListView的优化。
-
-* 事件的分发机制。
-
-* 自定义View的绘制流程。
-
-* 异步处理机制
-
-* 冷启动与热启动
-
-* Service保活
-
-* recyclerview
-
-* viewPager
-
-# 框架的使用以及源码分析
-
-
-*  Picasso
-
-*  Fresco
-
-*  Glide
-
-* Volley
-
-* Retrofit
-
-* Rxjava
-
-*  EventBus
-
-* greenDao
-
-* okHttp
-
-
-# 跨平台
-
-*  React Native
-
-*  Weex
-
-* sky
-
-#  开发模式
-
-*  MPV
-
-*  Dagger 2 
-
-#  UI 风格
-
-*  Material Design
-
-* Sketch 3 
+1. Android插件化
+2. RxJava
+3. Android热更新
+4. 进程保活
 
 
 
-# 设计模式
 
-* 六大设计原则
 
-* 23种设计模式
-
-# 实战项目的分析整理
-
-* 手机卫士
