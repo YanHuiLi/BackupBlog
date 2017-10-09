@@ -1,5 +1,5 @@
 ---
-title: 事件分发机制原理分析(案例+源码)-View篇
+title: 事件分发机制原理分析(案例和源码)-View篇
 top: 30
 date: 2017-10-03 08:20:52
 tags: [事件分发,view]
@@ -353,7 +353,7 @@ public boolean dispatchTouchEvent(MotionEvent event) {
             (actionMasked == MotionEvent.ACTION_DOWN && !result)) {
         stopNestedScroll();
     }
-c
+   return result;
 }
 ```
 
